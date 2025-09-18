@@ -1,0 +1,32 @@
+﻿  ConsoleApplication1.cpp
+C:\Users\salah\Desktop\Projects\C++\Bank System - OOP\ConsoleApplication1\ConsoleApplication1\clsString.h(42,25): warning C4267: 'return': conversion from 'size_t' to 'short', possible loss of data
+  (compiling source file 'ConsoleApplication1.cpp')
+  
+C:\Users\salah\Desktop\Projects\C++\Bank System - OOP\ConsoleApplication1\ConsoleApplication1\clsString.h(47,29): warning C4267: 'return': conversion from 'size_t' to 'short', possible loss of data
+  (compiling source file 'ConsoleApplication1.cpp')
+  
+C:\Users\salah\Desktop\Projects\C++\Bank System - OOP\ConsoleApplication1\ConsoleApplication1\clsString.h(59,30): warning C4267: '=': conversion from 'size_t' to 'short', possible loss of data
+  (compiling source file 'ConsoleApplication1.cpp')
+  
+C:\Users\salah\Desktop\Projects\C++\Bank System - OOP\ConsoleApplication1\ConsoleApplication1\clsString.h(196,29): warning C4267: 'return': conversion from 'size_t' to 'short', possible loss of data
+  (compiling source file 'ConsoleApplication1.cpp')
+  
+C:\Users\salah\Desktop\Projects\C++\Bank System - OOP\ConsoleApplication1\ConsoleApplication1\clsString.h(327,30): warning C4267: '=': conversion from 'size_t' to 'short', possible loss of data
+  (compiling source file 'ConsoleApplication1.cpp')
+  
+C:\Users\salah\Desktop\Projects\C++\Bank System - OOP\ConsoleApplication1\ConsoleApplication1\clsString.h(375,22): warning C4267: 'initializing': conversion from 'size_t' to 'short', possible loss of data
+  (compiling source file 'ConsoleApplication1.cpp')
+  
+C:\Users\salah\Desktop\Projects\C++\Bank System - OOP\ConsoleApplication1\ConsoleApplication1\clsBankClient.h(28,144): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'ConsoleApplication1.cpp')
+  
+C:\Users\salah\Desktop\Projects\C++\Bank System - OOP\ConsoleApplication1\ConsoleApplication1\clsInputValidate.h(101,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'ConsoleApplication1.cpp')
+  
+C:\Users\salah\Desktop\Projects\C++\Bank System - OOP\ConsoleApplication1\ConsoleApplication1\clsInputValidate.h(105,26): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'ConsoleApplication1.cpp')
+  
+C:\Users\salah\Desktop\Projects\C++\Bank System - OOP\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(28,62): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\salah\Desktop\Projects\C++\Bank System - OOP\ConsoleApplication1\ConsoleApplication1\clsBankClient.h(193,1): warning C4715: 'clsBankClient::Find': not all control paths return a value
+C:\Users\salah\Desktop\Projects\C++\Bank System - OOP\ConsoleApplication1\ConsoleApplication1\clsBankClient.h(242,1): warning C4715: 'clsBankClient::Save': not all control paths return a value
+  ConsoleApplication1.vcxproj -> C:\Users\salah\Desktop\Projects\C++\Bank System - OOP\ConsoleApplication1\x64\Debug\ConsoleApplication1.exe
