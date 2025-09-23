@@ -26,6 +26,6 @@ C:\Users\salah\Desktop\Projects\C++\Bank System - OOP\ConsoleApplication1\Consol
 C:\Users\salah\Desktop\Projects\C++\Bank System - OOP\ConsoleApplication1\ConsoleApplication1\clsInputValidate.h(105,26): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
   (compiling source file 'ConsoleApplication1.cpp')
   
-C:\Users\salah\Desktop\Projects\C++\Bank System - OOP\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(28,62): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\salah\Desktop\Projects\C++\Bank System - OOP\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(30,62): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
 C:\Users\salah\Desktop\Projects\C++\Bank System - OOP\ConsoleApplication1\ConsoleApplication1\clsBankClient.h(329,1): warning C4715: 'clsBankClient::Save': not all control paths return a value
   ConsoleApplication1.vcxproj -> C:\Users\salah\Desktop\Projects\C++\Bank System - OOP\ConsoleApplication1\x64\Debug\ConsoleApplication1.exe
