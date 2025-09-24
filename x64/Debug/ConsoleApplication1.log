@@ -20,7 +20,7 @@ C:\Users\salah\Desktop\Projects\C++\Bank System - OOP\ConsoleApplication1\Consol
 C:\Users\salah\Desktop\Projects\C++\Bank System - OOP\ConsoleApplication1\ConsoleApplication1\clsBankClient.h(32,65): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
   (compiling source file 'ConsoleApplication1.cpp')
   
-C:\Users\salah\Desktop\Projects\C++\Bank System - OOP\ConsoleApplication1\ConsoleApplication1\clsBankClient.h(381,16): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+C:\Users\salah\Desktop\Projects\C++\Bank System - OOP\ConsoleApplication1\ConsoleApplication1\clsBankClient.h(383,16): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
   (compiling source file 'ConsoleApplication1.cpp')
   
 C:\Users\salah\Desktop\Projects\C++\Bank System - OOP\ConsoleApplication1\ConsoleApplication1\clsInputValidate.h(101,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
@@ -32,7 +32,14 @@ C:\Users\salah\Desktop\Projects\C++\Bank System - OOP\ConsoleApplication1\Consol
 C:\Users\salah\Desktop\Projects\C++\Bank System - OOP\ConsoleApplication1\ConsoleApplication1\clsUtil.h(64,5): warning C4102: 'defualt': unreferenced label
   (compiling source file 'ConsoleApplication1.cpp')
   
-C:\Users\salah\Desktop\Projects\C++\Bank System - OOP\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(31,62): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-C:\Users\salah\Desktop\Projects\C++\Bank System - OOP\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(240,56): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\salah\Desktop\Projects\C++\Bank System - OOP\ConsoleApplication1\ConsoleApplication1\clsBankClient.h(329,1): warning C4715: 'clsBankClient::Save': not all control paths return a value
+C:\Users\salah\Desktop\Projects\C++\Bank System - OOP\ConsoleApplication1\ConsoleApplication1\clsAddNewClientScreen.h(30,66): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'ConsoleApplication1.cpp')
+  
+C:\Users\salah\Desktop\Projects\C++\Bank System - OOP\ConsoleApplication1\ConsoleApplication1\clsUpdateClientScreen.h(44,66): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'ConsoleApplication1.cpp')
+  
+C:\Users\salah\Desktop\Projects\C++\Bank System - OOP\ConsoleApplication1\ConsoleApplication1\clsMainScreen.h(26,16): warning C4244: 'initializing': conversion from 'double' to 'short', possible loss of data
+  (compiling source file 'ConsoleApplication1.cpp')
+  
+C:\Users\salah\Desktop\Projects\C++\Bank System - OOP\ConsoleApplication1\ConsoleApplication1\clsBankClient.h(331,1): warning C4715: 'clsBankClient::Save': not all control paths return a value
   ConsoleApplication1.vcxproj -> C:\Users\salah\Desktop\Projects\C++\Bank System - OOP\ConsoleApplication1\x64\Debug\ConsoleApplication1.exe
