@@ -48,6 +48,12 @@ public:
 
     static void ShowUpdateClientScreen()
     {
+
+        if (!CheckAccessRights(clsUser::enPermissions::pUpdateClient))
+        {
+            return; // this will exit the function and it will not continue.
+        }
+
         _DrawScreenHeader("\tUpdate CLient Screen");
 
         string AccountNumber = "";

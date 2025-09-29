@@ -1,11 +1,6 @@
 
 #include <iostream>
-#include "clsPerson.h"
-#include "clsBankClient.h"
-#include "clsInputValidate.h"
-#include "clsUtil.h"
-#include "clsMainScreen.h"
-#include <iomanip>
+#include "clsLoginScreen.h"
 
 
 using namespace std;
@@ -13,10 +8,11 @@ using namespace std;
 
 int main()
 {
-    
-    clsMainScreen::ShowMainMenue();
+    while (true)
+    {
+        clsLoginScreen::ShowLoginScreen();
+    }
 
-    system("pause>0");
     return 0;
 }
 

@@ -2,7 +2,6 @@
 
 #include <iostream>
 #include "clsScreen.h"
-#include "clsUser.h"
 #include <iomanip>
 
 class clsListUsersScreen :protected clsScreen
@@ -25,6 +24,7 @@ public:
 
     static void ShowUsersList()
     {
+
         vector <clsUser> vUsers = clsUser::GetUsersList();
 
         string Title = "\t  User List Screen";

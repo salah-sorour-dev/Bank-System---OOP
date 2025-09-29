@@ -3,6 +3,7 @@
 #include "clsScreen.h"
 #include "clsBankClient.h"
 #include "clsInputValidate.h"
+#include "clsUtil.h"
 
 class clsTotalBalancesScreen : protected clsScreen
 {
