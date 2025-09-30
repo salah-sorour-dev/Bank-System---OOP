@@ -50,6 +50,7 @@ C:\Users\salah\Desktop\Projects\C++\Bank System - OOP\ConsoleApplication1\Consol
 C:\Users\salah\Desktop\Projects\C++\Bank System - OOP\ConsoleApplication1\ConsoleApplication1\clsMainScreen.h(30,16): warning C4244: 'initializing': conversion from 'double' to 'short', possible loss of data
   (compiling source file 'ConsoleApplication1.cpp')
   
+C:\Users\salah\Desktop\Projects\C++\Bank System - OOP\ConsoleApplication1\ConsoleApplication1\clsLoginScreen.h(49,1): warning C4715: 'clsLoginScreen::_Login': not all control paths return a value
 C:\Users\salah\Desktop\Projects\C++\Bank System - OOP\ConsoleApplication1\ConsoleApplication1\clsBankClient.h(331,1): warning C4715: 'clsBankClient::Save': not all control paths return a value
 C:\Users\salah\Desktop\Projects\C++\Bank System - OOP\ConsoleApplication1\ConsoleApplication1\clsBankClient.h(388,1): warning C4715: 'clsBankClient::Withdraw': not all control paths return a value
 C:\Users\salah\Desktop\Projects\C++\Bank System - OOP\ConsoleApplication1\ConsoleApplication1\clsUser.h(308,1): warning C4715: 'clsUser::Save': not all control paths return a value
