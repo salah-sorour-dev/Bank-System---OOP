@@ -5,7 +5,6 @@
 #include "clsUser.h"
 #include "clsMainScreen.h"
 #include "Global.h"
-#include <windows.h>
 
 class clsLoginScreen : protected clsScreen
 {
