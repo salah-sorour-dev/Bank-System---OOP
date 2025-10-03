@@ -6,6 +6,7 @@
 #include <vector>
 #include <fstream>
 #include "clsDate.h"
+#include "clsBankClient.h"
 
 using namespace std;
 class clsUser : public clsPerson
@@ -33,6 +34,7 @@ private:
 
         return LoginRegisterRecord;
     }
+
 
     string _PrepareLogInRecord(string Separator = "#//#")
     {
@@ -437,6 +439,8 @@ public:
         return vLoginRegisterRecord;
 
     }
+
+    
 
 
 

@@ -103,5 +103,6 @@
     <Text Include="Clients.txt" />
     <Text Include="Users.txt" />
     <Text Include="LoginRegister.txt" />
+    <Text Include="TransferLog.txt" />
   </ItemGroup>
 </Project>
