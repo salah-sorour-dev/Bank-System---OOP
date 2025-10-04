@@ -183,6 +183,23 @@ private:
 
     }
 
+    struct stTransferRecord;
+    static stTransferRecord _ConvertTransferLineToRecord(string Line, string Separator = "#//#")
+    {
+        stTransferRecord TransferRecord;
+
+        vector <string> TransferDataLine = clsString::Split(Line, Separator);
+        TransferRecord.DateTime = TransferDataLine[0];
+        TransferRecord.sAcct = TransferDataLine[1];
+        TransferRecord.dAcct = TransferDataLine[2];
+        TransferRecord.Amount = stoi(TransferDataLine[3]);
+        TransferRecord.sBalance = stod(TransferDataLine[4]);
+        TransferRecord.dBalance = stod(TransferDataLine[5]);
+        TransferRecord.UserName = TransferDataLine[6];
+
+        return TransferRecord;
+    }
+    
 public:
 
 
@@ -198,6 +215,17 @@ public:
         _AccountBalance = AccountBalance;
 
     }
+
+    struct stTransferRecord
+    {
+        string DateTime;
+        string sAcct;
+        string dAcct;
+        float Amount;
+        double sBalance;
+        double dBalance;
+        string UserName;
+    };
 
     bool IsEmpty()
     {
@@ -447,6 +475,31 @@ public:
         DestinationClient.Deposit(Amount);
         _RegisterTransferLog(Amount, DestinationClient, UserName);
         return true;
+    }
+
+    static vector <stTransferRecord> GetTransferLogList()
+    {
+        vector <stTransferRecord> vTransferRecord;
+
+        fstream MyFile;
+        MyFile.open("TransferLog.txt", ios::in);
+
+        if (MyFile.is_open())
+        {
+            string Line;
+            stTransferRecord TransfeRecord;
+
+            while (getline(MyFile, Line))
+            {
+                TransfeRecord = _ConvertTransferLineToRecord(Line);
+
+                vTransferRecord.push_back(TransfeRecord);
+            }
+
+            MyFile.close();
+        }
+
+        return vTransferRecord;
     }
 
 

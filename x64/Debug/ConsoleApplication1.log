@@ -17,16 +17,24 @@ C:\Users\salah\Desktop\Projects\C++\Bank System - OOP\ConsoleApplication1\Consol
 C:\Users\salah\Desktop\Projects\C++\Bank System - OOP\ConsoleApplication1\ConsoleApplication1\clsString.h(375,22): warning C4267: 'initializing': conversion from 'size_t' to 'short', possible loss of data
   (compiling source file 'ConsoleApplication1.cpp')
   
+C:\Users\salah\Desktop\Projects\C++\Bank System - OOP\ConsoleApplication1\ConsoleApplication1\clsBankClient.h(219,12): warning C4240: nonstandard extension used: access to 'clsBankClient::stTransferRecord' now defined to be 'public', previously it was defined to be 'private'
+  (compiling source file 'ConsoleApplication1.cpp')
+      C:\Users\salah\Desktop\Projects\C++\Bank System - OOP\ConsoleApplication1\ConsoleApplication1\clsBankClient.h(186,12):
+      see declaration of 'clsBankClient::stTransferRecord'
+  
 C:\Users\salah\Desktop\Projects\C++\Bank System - OOP\ConsoleApplication1\ConsoleApplication1\clsBankClient.h(32,65): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
   (compiling source file 'ConsoleApplication1.cpp')
   
-C:\Users\salah\Desktop\Projects\C++\Bank System - OOP\ConsoleApplication1\ConsoleApplication1\clsBankClient.h(405,28): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+C:\Users\salah\Desktop\Projects\C++\Bank System - OOP\ConsoleApplication1\ConsoleApplication1\clsBankClient.h(195,37): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
   (compiling source file 'ConsoleApplication1.cpp')
   
-C:\Users\salah\Desktop\Projects\C++\Bank System - OOP\ConsoleApplication1\ConsoleApplication1\clsBankClient.h(417,32): warning C4244: '-=': conversion from 'double' to 'float', possible loss of data
+C:\Users\salah\Desktop\Projects\C++\Bank System - OOP\ConsoleApplication1\ConsoleApplication1\clsBankClient.h(433,28): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
   (compiling source file 'ConsoleApplication1.cpp')
   
-C:\Users\salah\Desktop\Projects\C++\Bank System - OOP\ConsoleApplication1\ConsoleApplication1\clsBankClient.h(434,16): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+C:\Users\salah\Desktop\Projects\C++\Bank System - OOP\ConsoleApplication1\ConsoleApplication1\clsBankClient.h(445,32): warning C4244: '-=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'ConsoleApplication1.cpp')
+  
+C:\Users\salah\Desktop\Projects\C++\Bank System - OOP\ConsoleApplication1\ConsoleApplication1\clsBankClient.h(462,16): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
   (compiling source file 'ConsoleApplication1.cpp')
   
 C:\Users\salah\Desktop\Projects\C++\Bank System - OOP\ConsoleApplication1\ConsoleApplication1\clsUser.h(186,12): warning C4240: nonstandard extension used: access to 'clsUser::stLoginRegisterRecord' now defined to be 'public', previously it was defined to be 'private'
@@ -61,7 +69,7 @@ C:\Users\salah\Desktop\Projects\C++\Bank System - OOP\ConsoleApplication1\Consol
 C:\Users\salah\Desktop\Projects\C++\Bank System - OOP\ConsoleApplication1\ConsoleApplication1\clsMainScreen.h(31,16): warning C4244: 'initializing': conversion from 'double' to 'short', possible loss of data
   (compiling source file 'ConsoleApplication1.cpp')
   
-C:\Users\salah\Desktop\Projects\C++\Bank System - OOP\ConsoleApplication1\ConsoleApplication1\clsBankClient.h(363,1): warning C4715: 'clsBankClient::Save': not all control paths return a value
+C:\Users\salah\Desktop\Projects\C++\Bank System - OOP\ConsoleApplication1\ConsoleApplication1\clsBankClient.h(391,1): warning C4715: 'clsBankClient::Save': not all control paths return a value
+C:\Users\salah\Desktop\Projects\C++\Bank System - OOP\ConsoleApplication1\ConsoleApplication1\clsBankClient.h(448,1): warning C4715: 'clsBankClient::Withdraw': not all control paths return a value
 C:\Users\salah\Desktop\Projects\C++\Bank System - OOP\ConsoleApplication1\ConsoleApplication1\clsUser.h(343,1): warning C4715: 'clsUser::Save': not all control paths return a value
-C:\Users\salah\Desktop\Projects\C++\Bank System - OOP\ConsoleApplication1\ConsoleApplication1\clsBankClient.h(420,1): warning C4715: 'clsBankClient::Withdraw': not all control paths return a value
   ConsoleApplication1.vcxproj -> C:\Users\salah\Desktop\Projects\C++\Bank System - OOP\ConsoleApplication1\x64\Debug\ConsoleApplication1.exe
