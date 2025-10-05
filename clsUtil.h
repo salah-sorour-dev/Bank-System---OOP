@@ -281,6 +281,36 @@ public:
 
     }
 
+    static string EncryptText(string Text, short EncryptionKey = 2)
+    {
+        // Loop through each character of the text.
+        // Note: Using "<= Text.length()" iterates one extra time (accessing the null terminator), 
+        // which may be unintended. Ideally, use "< Text.length()".
+        for (int i = 0; i <= Text.length(); i++)
+        {
+            // Convert the current character to its integer ASCII value,
+            // add the encryption key, cast it back to char, and assign it back.
+            Text[i] = char((int)Text[i] + EncryptionKey);
+        }
+        return Text; // Return the encrypted text.
+    }
+
+    static string DecryptText(string Text, short EncryptionKey = 2)
+    {
+        // Loop through each character of the text.
+        // Note: Using "<= Text.length()" will process one extra character (the null terminator).
+        for (int i = 0; i <= Text.length(); i++)
+        {
+            // Convert the current character to its ASCII integer value,
+            // subtract the encryption key, cast back to char, and assign it back.
+            Text[i] = char((int)Text[i] - EncryptionKey);
+        }
+        return Text; // Return the decrypted text.
+    }
+
+
+
+
 
 
 };
