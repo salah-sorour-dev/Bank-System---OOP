@@ -101,11 +101,15 @@
     <ClInclude Include="clsTransferLogScreen.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="clsCurrency.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Text Include="Clients.txt" />
     <Text Include="Users.txt" />
     <Text Include="LoginRegister.txt" />
     <Text Include="TransferLog.txt" />
+    <Text Include="Currencies.txt" />
   </ItemGroup>
 </Project>
