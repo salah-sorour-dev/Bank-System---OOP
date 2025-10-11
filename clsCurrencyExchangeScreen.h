@@ -4,6 +4,8 @@
 #include "clsBankClient.h"
 #include "clsMainScreen.h"
 #include "Global.h"
+#include "clsCurrenciesListScreen.h"
+#include "clsFindCurrencyScreen.h"
 
 
 class clsCurrencyExchangeScreen : protected clsScreen
@@ -31,21 +33,23 @@ private:
 	static void _ShowListCurrenciesScreen()
 	{
 		//cout << "\nList Currencies Screen Will be Here.\n";
+		clsCurrenciesListScreen::ShowCurrenciesList();
 	}
 
 	static void _ShowFindCurrencyScreen()
 	{
 		//cout << "\nFind Currency Screen Will be Here.\n";
+		clsFindCurrencyScreen::ShowFindCurrencScreen();
 	}
 
 	static void _ShowUpdateRateScreen()
 	{
-		//cout << "\nUpdate Rate Screen Will be Here.\n";
+		cout << "\nUpdate Rate Screen Will be Here.\n";
 	}
 
 	static void _ShowCurrencyCalculatorScreen()
 	{
-		//cout << "\nCurrency Calculator Screen Will be Here.\n";
+		cout << "\nCurrency Calculator Screen Will be Here.\n";
 	}
 
 	static void _PerformCurrencyExchangeMenueOption(enCurrencyExchangeOption CurrencyExchangeOption)
